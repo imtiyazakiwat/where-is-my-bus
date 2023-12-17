@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bus Live Tracking</title>
+    <link rel="stylesheet" href="livetracking.css">
+</head>
+<body>
+    <header>
+        <h1 class="bus-name">City Express</h1>
+        <span class="start-stop">Starting: Main Station</span>
+        <span class="start-stop">Destination: City Centre</span>
+    </header>
+    <main>
+        <div class="progress-bar-container">
+            <div class="progress-bar">
+                <div class="progress-fill" style="height: 60%"></div>
+            </div>
+            <ul class="bus-stops">
+                <li class="stop active">
+                    <span class="stop-name">Main Station</span>
+                    <span class="arrival-time">(Arrived)</span>
+                </li>
+                <li class="stop">
+                    <span class="stop-name">Park Avenue</span>
+                    <span class="arrival-time">10:15</span>
+                </li>
+                <li class="stop">
+                    <span class="stop-name">Museum Square</span>
+                    <span class="arrival-time">10:22</span>
+                </li>
+                <li class="stop">
+                    <span class="stop-name">City Hall</span>
+                    <span class="arrival-time">10:30</span>
+                </li>
+                <li class="stop">
+                    <span class="stop-name">City Centre</span>
+                    <span class="arrival-time">10:37</span>
+                </li>
+            </ul>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

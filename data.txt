@@ -1,0 +1,51 @@
+BUS NO ||  FROM       || TO           || STOPS || STOP 1        | STOP 2        | STOP 3        | STOP 4       | STOP 5        | STOP 6         | 
+1      ||  Athani     || Belagavi     || 6     || Halyal-13     | Darur-15      | Harugeri-41   | Raibag-67    | Gokak-75      | Belagavi-115   |  
+2      ||  Hubli      || Dharwad      || 5     || Gokul Road-10 | Court Circle-15 | Jubilee Circle-22 | Vidyanagar-35 | Keshwapur-45   | Dharwad-60     |  
+3      ||  Mangalore  || Udupi        || 4     || Hampankatta-12 | Balmatta-25    | Kankanady-35    | Udupi-50      |  
+4      ||  Mysuru     || Ooty         || 3     || Mysore City-10 | Nanjangud-30   | Ooty-70        |  
+5      ||  Bangalore  || Chennai      || 7     || Majestic-5    | Silk Board-20  | Electronic City-35 | Hosur-50     | Kanchipuram-75 | Chennai-90     |  
+6      ||  Pune       || Mumbai       || 6     || Shivajinagar-10 | Hinjewadi-25  | Lonavala-40    | Panvel-60     | Dadar-75      | Mumbai-90      |  
+7      ||  Ahmedabad  || Vadodara     || 4     || SG Highway-10 | Thaltej-25    | Narmada Canal-40 | Vadodara-55   |  
+8      ||  Delhi      || Agra         || 5     || Connaught Place-10 | Akshardham-30 | Mathura-50     | Sikandra-65   | Agra-80        |  
+9      ||  Kolkata    || Digha        || 6     || Howrah-15     | Haldia-30     | Contai-45      | Ramnagar-60  | Kanthi-75      | Digha-90      |  
+10     ||  Jaipur     || Jodhpur      || 4     || Sindhi Camp-10 | Ajmeri Gate-20 | Pali-40        | Jodhpur-60   |  
+11     ||  Hyderabad  || Vijayawada   || 5     || Kachiguda-10  | Secunderabad-25 | Nalgonda-40    | Khammam-55   | Vijayawada-70  |  
+12     ||  Kochi      || Trivandrum   || 4     || Kaloor-10     | Vyttila-20     | Kollam-40      | Trivandrum-60 |
+13     ||  Ranchi      || Jamshedpur  || 5     || Main Road-10  | Doranda-20     | Chandni Chowk-35 | Mango-50     | Jamshedpur-70  |
+14     ||  Lucknow    || Varanasi     || 6     || Hazratganj-10 | Alambagh-20    | Sultanpur-35   | Jaunpur-50   | Bhadohi-65    | Varanasi-80    |
+15     ||  Patna      || Gaya         || 4     || Gandhi Maidan-15 | Rajendra Nagar-30 | Jehanabad-45 | Bodh Gaya-60  |
+16     ||  Chandigarh || Shimla       || 3     || Sector 17-10  | Panchkula-25   | Solan-40       | Shimla-55    |
+17     ||  Bhopal     || Indore       || 4     || BHEL-10       | MP Nagar-20    | Ujjain-35      | Indore-50    |
+18     ||  Surat      || Vadodara     || 3     || Kamrej-10     | Ankleshwar-25  | Vadodara-40    |
+19     ||  Thane      || Nashik       || 5     || Majiwada-10   | Kalyan-25      | Igatpuri-40    | Trimbak-55   | Nashik-70     |
+20     ||  Guwahati   || Shillong     || 4     || Paltan Bazaar-15 | Khanapara-30  | Umiam Lake-45  | Shillong-60  |
+21     ||  Jammu      || Srinagar     || 4     || Raghunath Bazaar-10 | Udhampur-25 | Anantnag-40   | Srinagar-55  |
+22     ||  Thiruvananthapuram || Kollam || 3 || Palayam-10 | Neyyattinkara-25 | Kottarakkara-40 | Kollam-55   |
+23     ||  Raipur     || Bilaspur     || 4     || Telibandha-10 | Shankar Nagar-25 | Durg-40      | Bilaspur-55  |
+24     ||  Kanpur     || Allahabad    || 5     || Kakadeo-10    | Civil Lines-20  | Fatehpur-35   | Prayagraj-50 | Allahabad-65  |
+25     ||  Nagpur     || Aurangabad   || 6     || Sitabuldi-10  | Dhantoli-20    | Wardha-35     | Amravati-50  | Jalna-65      | Aurangabad-80  |
+26     ||  Coimbatore || Erode        || 4     || Gandhipuram-10 | Peelamedu-25  | Tiruppur-40   | Erode-55     |
+27     ||  Rajkot     || Bhuj         || 3     || Limda Chowk-10 | Kalawad Road-25 | Anjar-40     |
+28     ||  Siliguri   || Darjeeling   || 4     || Sevoke Road-15 | Matigara-30   | Kurseong-45   | Darjeeling-60|
+29     ||  Amritsar   || Ludhiana     || 4     || Golden Temple-10 | Hall Bazaar-25 | Jalandhar-40 | Ludhiana-55  |
+30     ||  Vishakhapatnam || Bhubaneswar || 5 || Dwaraka Nagar-10 | Gajuwaka-25 | Anakapalle-40 | Khordha-55 | Bhubaneswar-70 |
+31     ||  Madurai    || Salem        || 3     || Meenakshi Temple-10 | Anna Nagar-25 | Namakkal-40   |
+32     ||  Ajmer      || Udaipur      || 4     || Dargah Sharif-10 | Adarsh Nagar-25 | Nathdwara-40 | Udaipur-55   |
+33     ||  Noida      || Greater Noida || 3    || Sector 18-10 | Pari Chowk-25  | Knowledge Park-40 |
+34     ||  Sambalpur  || Rourkela     || 4     || Hirakud-10   | Jharsuguda-25 | Sundargarh-40  | Rourkela-55 |
+35     ||  Dhanbad    || Jamshedpur   || 5     || City Centre-10 | Katras Road-20 | Chas-35       | Adityapur-50 | Jamshedpur-65  |
+36     ||  Dehradun   || Haridwar     || 3     || Clock Tower-10 | Rajpur Road-25 | Roorkee-40    |
+37     ||  Ranchi     || Bokaro       || 4     || Booty More-15 | Ormanjhi-30   | Ramgarh-45    | Bokaro-60    |
+38     ||  Bhagalpur  || Muzaffarpur  || 5     || Nathnagar-10  | Jamalpur-25   | Barari-40     | Samastipur-55 | Muzaffarpur-70 |
+39     ||  Warangal   || Karimnagar   || 3     || Hanamkonda-10 | Kazipet-25    | Jagtial-40    |
+40     ||  Jhansi     || Gwalior      || 4     || Civil Lines-10 | Sipri Bazar-25 | Datia-40      | Gwalior-55   |
+41     ||  Gandhinagar || Gandhidham   || 4     || Sector 16-10  | Koba Circle-25 | Anand Nagar-40 | Gandhidham-55 |
+42     ||  Jabalpur   || Satna        || 3     || Gorakhpur-10 | Civil Lines-25 | Rewa-40        |
+43     ||  Tiruchirappalli || Thanjavur || 4 || Chathiram Bus Stand-10 | Srirangam-25 | Kumbakonam-40 | Thanjavur-55 |
+44     ||  Rourkela   || Bhubaneswar  || 5     || Panposh-10    | Rajgangpur-25 | Jharsuguda-40 | Cuttack-55 | Bhubaneswar-70 |
+45     ||  Bhilai     || Raipur       || 4     || Civic Centre-10 | Supela-25    | Durg-40       | Raipur-55    |
+46     ||  Vijayawada || Guntur       || 3     || Benz Circle-10 | Machilipatnam-25 | Narasaraopet-40 |
+47     ||  Allahabad  || Varanasi     || 4     || Prayagraj-10 | Phulpur-25   | Mirzapur-40   | Varanasi-55   |
+48     ||  Rohtak     || Hisar        || 3     || Civil Lines-10 | Bhiwani-25   | Hansi-40      |
+49     ||  Bhopal     || Jabalpur     || 4     || Habibganj-10 | Hoshangabad-25 | Sagar-40      | Jabalpur-55  |
+50     ||  Vadodara   || Surat        || 3     || Akota-10      | Alkapuri-25  | Navapura-40    |
