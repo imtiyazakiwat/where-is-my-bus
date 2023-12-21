@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bus Tracking</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0; /* Remove default margin */
+            padding: 0; /* Remove default padding */
+        }
+    
+        .header {
+            background-color: rgb(68, 68, 194);
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            padding: 10px;
+        }
+    
+        .header img {
+            width: 20px; /* Adjust as needed */
+            height: 20px; /* Adjust as needed */
+        }
+    
+        .bus-deatils {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    
+        .bus-deatils h2 {
+            margin: 0; /* Remove default margin */
+        }
+    
+        .tracking-area {
+            display: flex;
+            flex-direction: column; /* Adjust for mobile layout */
+            align-items: center;
+            padding: 10px;
+        }
+    
+        .bus-path {
+            height: 107vh; /* Adjust as needed */
+            width: 90%; /* Adjust as needed */
+            background-color: rgb(119, 199, 226);
+            margin: 10px 0;
+        }
+    
+        .bus img {
+            width: 100%; /* Make the bus image responsive */
+            margin-top: 10px; /* Adjust as needed */
+        }
+    
+        .stop-names {
+            text-align: center;
+            margin-top: 10px; /* Adjust as needed */
+        }
+    
+        .stop-name {
+            margin: 0; /* Remove default margin */
+        }
+    
+        .stop-timings {
+            text-align: center;
+            margin-top: 10px; /* Adjust as needed */
+        }
+    
+        .stop-time {
+            margin: 0; /* Remove default margin */
+        }
+    
+        .update-info {
+            background-color: rgb(208, 232, 253);
+            margin-top: 10px; /* Adjust as needed */
+            padding: 10px;
+            text-align: center;
+        }
+    
+        .bar-img {
+            width: 20px; /* Adjust as needed */
+            margin-left: 40%;
+        }
+    
+        .info {
+            margin-top: 10px; /* Adjust as needed */
+        }
+    
+        @media only screen and (min-width: 600px) {
+            /* Adjust styles for screens wider than 600px */
+            .tracking-area {
+                flex-direction: row;
+                align-items: flex-start;
+            }
+    
+            .bus-path {
+                width: 40%; /* Adjust as needed */
+            }
+    
+            .stop-names, .stop-timings {
+                margin-top: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="go-back">
+            <img src="left-long-solid.svg" alt="">
+        </div>
+        <div class="bus-details">
+            <h2 class="bus-no">401</h2>
+            <h2>-</h2>
+            <h2 class="bus-name">Athani-Gokak</h2>
+        </div>
+        <div class="dots">
+            <img src="ellipsis-vertical-solid.svg" alt="">
+        </div>
+    </div>
+    <div class="tracking-area">
+        <div class="bus-path"></div>
+        <div class="bus">
+            <img src="bus-solid.svg" alt="" class="bus-img">
+        </div>
+        <div class="stop-names">
+            <h3 class="stop-name">Sankonatti</h3>
+            <h3 class="stop-name">Halyal</h3>
+            <h3 class="stop-name">Darur</h3>
+            <h3 class="stop-name">Harugeri-cross</h3>
+            <h3 class="stop-name">Harugeri</h3>
+            <h3 class="stop-name">Raibag</h3>
+            <h3 class="stop-name">Mudalagi</h3>
+            <h3 class="stop-name">Gokak</h3>
+        </div>
+        <div class="stop-timings">
+            <h3 class="stop-time">1:37</h3>
+            <h3 class="stop-time">1:45</h3>
+            <h3 class="stop-time">2:00</h3>
+            <h3 class="stop-time">2:30</h3>
+            <h3 class="stop-time">2:40</h3>
+            <h3 class="stop-time">3:15</h3>
+            <h3 class="stop-time">3:37</h3>
+            <h3 class="stop-time">4:00</h3>
+        </div>
+    </div>
+    <div class="update-info">
+        <div class="bar">
+            <img src="minus-solid.svg" alt="" class="bar-img">
+        </div>
+        <div class="info">
+            <h2>Bus Arrived At Halyal</h2>
+        </div>
+    </div>
+</body>
+</html>
