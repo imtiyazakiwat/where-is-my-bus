@@ -1,0 +1,82 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+background-color: rgb(68, 68, 194);
+color: white;
+width: 100vw;
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
+.go-back{
+margin-left: 2vw;
+}
+.header-space{
+width: 20vw;
+}
+.bus-deatils{
+display: flex;
+align-items: center;
+width: fit-content;
+justify-content: center;
+}
+.tracking-area{
+height: 100vh;
+display: flex;
+flex-direction: row;
+width: 100vw;
+/* justify-content: space-evenly; */
+/* align-items:  ; */
+}
+.bus-path{
+height: 107vh;
+width: 4vw;
+background-color: rgb(119, 199, 226);
+margin-left: 10vw;
+margin-right: 4vw;
+}
+.bus{
+/* width: 4vw; */
+margin-top: 10vh;
+}
+.bus-img{
+width: 4vw;
+}
+
+.stop-name{
+margin-bottom: 10vh;
+width: 42vw;
+}
+.space{
+width: 33vw;
+}
+.stop-timings{
+margin-right: 0px;
+margin-left: 80px;
+}
+.stop-time{
+margin-bottom: 10vh;
+margin-right: 5vw;
+}
+
+.update-info{
+background-color: rgb(208, 232, 253);
+margin-top: 41px;
+padding-top: 0px;
+padding-bottom: 40px;
+
+}
+
+.bar{
+margin-top: 2vw;
+}
+.bar-img{
+width: 20%;
+margin-left: 40%;
+}
+
+.info{
+margin-left: 30vw;
+margin-bottom: 2vh;
+}
