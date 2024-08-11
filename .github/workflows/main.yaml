@@ -25,7 +25,7 @@ jobs:
     - uses: subosito/flutter-action@v1
       with:
         channel: 'beta' # 'dev', 'alpha', default to: 'stable'
-        flutter-version: '1.12.x' # you can also specify exact version of flutter
+        flutter-version: '3.7.0' # Use a version that includes Dart >=3.3.0
     
     # Get flutter dependencies.
     - run: flutter pub get
