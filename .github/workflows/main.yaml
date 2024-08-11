@@ -19,7 +19,7 @@ jobs:
         java-version: '12.x'
     
     # Setup the flutter environment.
-    - uses: subosito/flutter-action@v3
+    - uses: subosito/flutter-action@v2
       with:
         channel: 'stable' # Use the stable channel to ensure compatibility
         flutter-version: '3.7.0' # Ensure this version matches your Dart SDK requirement
