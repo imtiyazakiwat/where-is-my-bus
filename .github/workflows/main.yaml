@@ -19,6 +19,9 @@ jobs:
       - uses: subosito/flutter-action@v2
         with:
           channel: 'stable'
+
+      - run: flutter upgrade   # Add this step to upgrade Flutter
+
       - run: flutter pub get
       - run: flutter build apk --release --split-per-abi
 
