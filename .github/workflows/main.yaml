@@ -20,9 +20,11 @@ jobs:
         with:
           channel: 'stable'
 
-      - run: flutter upgrade   # Add this step to upgrade Flutter
+      - run: flutter upgrade   # Ensure Flutter is up-to-date
+      - run: flutter pub upgrade  # Upgrade dependencies
+      - run: flutter clean  # Clean build directory
+      - run: flutter pub get  # Install dependencies
 
-      - run: flutter pub get
       - run: flutter build apk --release --split-per-abi
 
       - name: Push to Releases
